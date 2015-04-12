@@ -20,7 +20,7 @@ plot4 <- function() {
 ## period of almost 4 years. 
 ##
 ## The function subsets the data from the dates 2007-02-01 and 2007-02-02. It cleans the variables
-## retrieved to Date & Numeric formats. The columns are selected to plot the Y-axis.
+## retrieved to Date & Numeric formats.
 ## 
 ## IMPORTANT NOTE: The dataset represents a large table. Therefore as rough estimation, 
 ## considering 8bytes each numeric value, requests at least 
