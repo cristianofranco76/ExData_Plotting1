@@ -9,6 +9,9 @@ plot1 <- function() {
 ## current Working directory, construct & print a <histogram plot>, copying it to a PNG
 ## file called "plot1.png" with a width of 480 p x height 480 p.
 ## 
+## This function requires data.table package due to the fread() function that performs better 
+## than the read.table()
+## 
 ## The dataset has 2,075,259 rows and 9 columns with Measurements of electric
 ## power consumption in one household with a one-minute sampling rate over a
 ## period of almost 4 years. 
@@ -49,8 +52,10 @@ rm(files, data_exists)
 # Creats a message in the console to wait
 message("Wait...")
 
-# Reads the dataset
-data <- read.table("household_power_consumption.txt",header = TRUE, sep = ";", stringsAsFactors=FALSE)
+# Reads the dataset using fread from the data.table package
+# the warnings are suppressed due to the missing values "?" converted to NA
+require("data.table")
+suppressWarnings(data <- fread("household_power_consumption.txt",sep=";",na.strings="?"))
 
 # Converts the Date column
 data$Date <- as.Date(data$Date, format = "%d/%m/%Y")

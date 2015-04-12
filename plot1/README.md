@@ -10,12 +10,14 @@ The function reads the dataset <a href="https://d396qusza40orc.cloudfront.net/ex
 in <b>the current Working directory</b>, construct & print a <b>Histogram plot</b>, copying it to a PNG
 file called "plot1.png" with a width of 480 pixels x height 480 pixels (attached to this repository)
 
+<b><i>This function requires data.table package due to the fread() function that performs better 
+than the read.table() </b></i>
 
 The function subsets the data from the dates 2007-02-01 and 2007-02-02. It cleans the variables
 retrieved to Date & Numeric formats. The column Global_active_power is selected to plot 
 the histogram.
 
-<b>IMPORTANT NOTE:</b> The dataset represents a large table. Therefore as rough estimation, 
+<b><i>IMPORTANT NOTE:</b></i> The dataset represents a large table. Therefore as rough estimation, 
 considering 8bytes each numeric value, requests at least 
 (2,075,259 rows) x (9 columns x 8bytes) x 2 times / (10^-9 Gbytes) = <b>0,30 Gbytes</b> 
 of free memory in the computer.
