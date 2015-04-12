@@ -16,7 +16,7 @@ plot2 <- function() {
 ##
 ## The function subsets the data from the dates 2007-02-01 and 2007-02-02. It cleans the variables
 ## retrieved to Date & Numeric formats. The column Global_active_power is selected to plot 
-## the histogram. 
+## the Y-axis.
 ## 
 ## IMPORTANT NOTE: The dataset represents a large table. Therefore as rough estimation, 
 ## considering 8bytes each numeric value, requests at least 
@@ -59,7 +59,7 @@ sub_data<-subset(data,Date == "2007-02-01" | Date == "2007-02-02", select = Date
 # Remove data variable to release memory
 rm(data)
     
-# Converts Global Avtive Power Column in numeric data
+# Converts Global Active Power Column in numeric data
 sub_data$Global_active_power<-as.numeric(sub_data$Global_active_power)
 
 ###############################################################################################

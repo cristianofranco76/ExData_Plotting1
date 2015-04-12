@@ -58,7 +58,7 @@ sub_data<-subset(data,Date == "2007-02-01" | Date == "2007-02-02", select = Date
 # Remove data variable to release memory
 rm(data)
 
-# Converts Global Avtive Power Column in numeric data
+# Converts Global Active Power Column in numeric data
 sub_data$Global_active_power<-as.numeric(sub_data$Global_active_power)
 
 ###############################################################################################
