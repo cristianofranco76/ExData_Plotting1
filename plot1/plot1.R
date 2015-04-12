@@ -45,7 +45,10 @@ rm(files, data_exists)
 ## Reads the subset of the dataset from the dates 2007-02-01 and 2007-02-02 and Clean 
 ## the necessary plotting data
 ###############################################################################################
- 
+
+# Creats a message in the console to wait
+message("Wait...")
+
 # Reads the dataset
 data <- read.table("household_power_consumption.txt",header = TRUE, sep = ";", stringsAsFactors=FALSE)
 
@@ -73,4 +76,5 @@ dev.copy(png, width = 480, height = 480, units = "px", file = "plot1.png")
 
 # Closing the PNG device
 invisible(dev.off()) 
+message("Plot1 generated in the current working directory")
 }
