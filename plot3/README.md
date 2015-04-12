@@ -54,6 +54,7 @@ the necessary plotting data
 	* Plots X-Y2 with the lines function - color red (Y2 = Sub_metering_2)
 	* Plots X-Y3 with lines function - color blue (Y3 = Sub_metering_3)
 	* Creates the legends for all the variables with corresponding colors
-	* Closes the PNG device
+	* Closes the PNG device and prints a message in the console: 
+	"Plot3 generated in the current working directory"
 
 Ps. There is a sample of the PNG file created by the function in this repo.

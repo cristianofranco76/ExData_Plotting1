@@ -44,6 +44,7 @@ the necessary plotting data
 
 	* creats the Histogram with the Global Active Power data, color = Red, titles and labels defined
 	* copy the Histogram to a PNG Device with the defined width and height
-	* closing the PNG device
+	* closing the PNG device and prints a message: 
+	"Plot1 generated in the current working directory"
 
 Ps. There is a sample of the PNG file created by the function in this repo.

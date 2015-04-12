@@ -47,6 +47,7 @@ the necessary plotting data
 	* Creats the Y-axis base on the Global_active_power variable
 	* Plots X-Y with the draw type for lines, and sets labels
 	* Copy the Plotting to a PNG Device with the defined width and height
-	* closes the PNG device
+	* closes the PNG device and prints a message: 
+	"Plot2 generated in the current working directory"
 
 Ps. There is a sample of the PNG file created by the function in this repo.
