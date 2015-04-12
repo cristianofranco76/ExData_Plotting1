@@ -49,10 +49,10 @@ the necessary plotting data
 
 	* Creats the X-axis based on the time column and the date column
 	* Creats the Y-axis base on the Sub_metering variables
-	* Open the Plotting to a PNG Device with the defined width and height
-	* Plots X-Y1 with the draw type for lines, color black and sets labels
-	* Plots X-Y2 with the lines function - color red
-	* Plots X-Y3 with lines function - color blue
+	* Open the Plotting to a PNG Device with the defined width and height 
+	* Plots X-Y1 with the draw type for lines, color black and sets labels (Y1 = Sub_metering_1)
+	* Plots X-Y2 with the lines function - color red (Y2 = Sub_metering_2)
+	* Plots X-Y3 with lines function - color blue (Y3 = Sub_metering_3)
 	* Creates the legends for all the variables with corresponding colors
 	* Closes the PNG device
 
