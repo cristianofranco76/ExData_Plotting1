@@ -24,7 +24,7 @@ considering 8bytes each numeric value, requests at least
 (2,075,259 rows) x (9 columns x 8bytes) x 2 times / (10^-9 Gbytes) = <b>0,30 Gbytes</b> 
 of free memory in the computer.
 
-Main steps of the functions
+Main steps of the functions:
 
 1) Check the existance of the file household_power_consumption.txt in the current Working Directory
 
