@@ -57,6 +57,7 @@ the necessary plotting data
 		* Plots X-Y3 with lines function - color blue (Y3 = Sub_metering_3)
 		* Creates the legends for all the variables with corresponding colors
 	* Plots the #4 Graphic > Sub_meterings vs Time
-	* Closes the PNG device and genarates a message to the console: "Plot4 generated in the current working directory"
+	* Closes the PNG device and genarates a message to the console: 
+	"Plot4 generated in the current working directory"
 
 Ps. There is a sample of the PNG file created by the function in this repo.
