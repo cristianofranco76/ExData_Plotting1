@@ -22,26 +22,26 @@ of free memory in the computer.
 
 Main steps of the functions
 
-* Check the existance of the file household_power_consumption.txt in the current Working Directory
+1) Check the existance of the file household_power_consumption.txt in the current Working Directory
 
-	# list all the files of the current directory
-	# check if the file exists
-	# if file does not exist in the current working directory returns an error message
-	# remove temporary variables
+	* list all the files of the current directory
+	* check if the file exists
+	* if file does not exist in the current working directory returns an error message
+	* remove temporary variables
 
-* Reads the subset of the dataset from the dates 2007-02-01 and 2007-02-02 and Clean 
+2) Reads the subset of the dataset from the dates 2007-02-01 and 2007-02-02 and Clean 
 the necessary plotting data
  
-	# reads the dataset
-	# converts the Date column
-	# subset the required Dates and the necessary colums to plot
-	# remove data variable to release memory
-	# converts Global Avtive Power Column in numeric data
+	* reads the dataset
+	* converts the Date column
+	* subset the required Dates and the necessary colums to plot
+	* remove data variable to release memory
+	* converts Global Avtive Power Column in numeric data
 
-* Creats, print a histogram graphic in a PNG file with a width of 480px x height 480px
+3) Creats, print a histogram graphic in a PNG file with a width of 480px x height 480px
 
-	# creats the Histogram with the Global Active Power data, color = Red, titles and labels defined
-	# copy the Histogram to a PNG Device with the defined width and height
-	# closing the PNG device
+	* creats the Histogram with the Global Active Power data, color = Red, titles and labels defined
+	* copy the Histogram to a PNG Device with the defined width and height
+	* closing the PNG device
 
 ## There is a sample of the PNG file created by the function.
