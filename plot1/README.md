@@ -44,4 +44,4 @@ the necessary plotting data
 	* copy the Histogram to a PNG Device with the defined width and height
 	* closing the PNG device
 
-## There is a sample of the PNG file created by the function.
+Ps. There is a sample of the PNG file created by the function in this repo.
